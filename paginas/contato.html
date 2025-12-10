@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nexus Games - Contato</title>
+    
+    <link href="../vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+  </head>
+  <body>
+
+    <header class="topo-mario">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" alt="Nexus Logo" width="60" class="d-inline-block align-text-top">
+                </a>
+                
+                <button class="navbar-toggler bg-warning border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item"><a class="nav-link btn btn-retro" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-retro" href="portfolio.html">Portfólio</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-retro" href="servicos.html">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-retro" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="layout-canos">
+        <div class="container py-4">
+            
+            <div class="text-center mb-5">
+                <h1 class="page-title-box">Fale Conosco</h1>
+            </div>
+
+            <div class="row g-5">
+                
+                <div class="col-lg-6">
+                    <div class="p-4 h-100 text-white" style="background-color: rgba(0, 0, 0, 0.4); border: 4px solid #fff; border-radius: 15px;">
+                        <h3 class="text-warning mb-4" style="font-family: 'Press Start 2P'; font-size: 1.2rem;">Envie uma Mensagem</h3>
+                        
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold">Nome Completo</label>
+                                <input type="text" class="form-control border-3 border-dark" id="nome" placeholder="Seu nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">E-mail</label>
+                                <input type="email" class="form-control border-3 border-dark" id="email" placeholder="seu@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="assunto" class="form-label fw-bold">Assunto</label>
+                                <select class="form-select border-3 border-dark" id="assunto">
+                                    <option selected>Selecione o assunto</option>
+                                    <option value="1">Orçamento</option>
+                                    <option value="2">Suporte Técnico</option>
+                                    <option value="3">Parcerias</option>
+                                    <option value="4">Outros</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Mensagem</label>
+                                <textarea class="form-control border-3 border-dark" id="mensagem" rows="4" placeholder="Como podemos ajudar?"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-warning border-3 border-dark fw-bold py-2 text-uppercase">Enviar Mensagem</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="p-4 h-100 text-white d-flex flex-column" style="background-color: #d78d28; border: 4px solid #000; box-shadow: 10px 10px 0px rgba(0,0,0,0.5);">
+                        <h3 class="text-dark mb-4" style="font-family: 'Press Start 2P'; font-size: 1.2rem;">Onde Estamos</h3>
+                        
+                        <div class="mb-4 text-dark fw-bold">
+                            <p class="mb-2"><i class="fas fa-map-marker-alt me-2 fs-5"></i> Av. da Tecnologia, 2099 - Centro Empresarial, São Paulo - SP</p>
+                            <p class="mb-2"><i class="fas fa-envelope me-2 fs-5"></i> contato@nexusgames.com.br</p>
+                            <p class="mb-0"><i class="fas fa-phone me-2 fs-5"></i> (11) 99999-9999</p>
+                            <p class="mt-3 small">Horário de Atendimento: Segunda a Sexta, das 09h às 18h.</p>
+                        </div>
+
+                        <div class="flex-grow-1 border-4 border-dark overflow-hidden bg-white" style="border: 4px solid #000; min-height: 300px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197586021614!2d-46.6563637!3d-23.561348899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="mt-auto py-3 text-center">
+        <div class="container">
+            <div class="row align-items-center fw-bold" style="font-family: sans-serif;">
+                <div class="col-md-4 text-md-start mb-2 mb-md-0">
+                    <i class="fab fa-whatsapp"></i> (11) 99999-9999
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                    NEXUS GAMES &copy; 2024
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="#" class="text-dark mx-2 text-decoration-none"><i class="fab fa-instagram fs-4"></i></a>
+                    <a href="#" class="text-dark mx-2 text-decoration-none"><i class="fab fa-twitter fs-4"></i></a> 
+                    <a href="#" class="text-dark mx-2 text-decoration-none"><i class="fab fa-youtube fs-4"></i></a>
+                </div>
+            </div>
+        </div>
+        <div style="height: 15px; margin-top: 10px; background-image: repeating-linear-gradient(45deg, #b85c38 0, #b85c38 10px, transparent 10px, transparent 20px); opacity: 0.3;"></div>
+    </footer>
+
+    <script src="../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

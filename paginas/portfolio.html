@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nexus Games - Portfólio</title>
+    
+    <link href="../vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    
+    <style>
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: #000;
+        border-radius: 50%;
+        padding: 20px;
+        background-size: 60%;
+      }
+      .game-card-bg {
+        background-color: rgba(0, 0, 0, 0.4); 
+        border: 4px solid #fff; 
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header class="topo-mario">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" alt="Nexus Logo" width="60" class="d-inline-block align-text-top">
+                </a>
+                
+                <button class="navbar-toggler bg-warning border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item"><a class="nav-link btn btn-retro" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-retro" href="portfolio.html">Portfólio</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-retro" href="servicos.html">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-retro" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="layout-canos">
+        <div class="container py-4">
+            
+            <div class="text-center text-white mb-5">
+                <h1 class="page-title-box">Nossos Projetos</h1>
+                <p class="fs-5 mt-3" style="text-shadow: 2px 2px 0px #000;">Confira alguns dos projetos feitos pela Nexus Games!</p>
+            </div>
+
+            <div id="carouselPortfolio" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="3"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="../img/gta5.jpg" class="d-block shadow border border-4 border-dark" style="max-height: 400px; border-radius: 10px;" alt="GTA V">
+                            
+                            <div class="game-card-bg p-4 mt-4 text-white text-center w-75">
+                                <h3 class="text-warning text-uppercase mb-3" style="font-family: 'Press Start 2P'; font-size: 1.2rem;">Grand Theft Auto V</h3>
+                                <p>O auge do mundo aberto. Uma experiência imersiva situada na dinâmica cidade de Los Santos. Este título combina uma narrativa cinematográfica entre três protagonistas distintos com um universo online em constante expansão, oferecendo liberdade total de exploração e jogabilidade emergente.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="../img/rdr2.jpg" class="d-block shadow border border-4 border-dark" style="max-height: 400px; border-radius: 10px;" alt="Red Dead Redemption 2">
+                            
+                            <div class="game-card-bg p-4 mt-4 text-white text-center w-75">
+                                <h3 class="text-warning text-uppercase mb-3" style="font-family: 'Press Start 2P'; font-size: 1.2rem;">Red Dead Redemption II</h3>
+                                <p>Uma epopeia no Velho Oeste. Aclamado pela crítica por seu realismo inigualável e profundidade narrativa. Acompanhe a saga de Arthur Morgan em um mundo vivo e detalhado, onde cada decisão molda a honra do personagem e sua interação com o ambiente. Uma obra-prima técnica e visual.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="../img/eldenring.jpg" class="d-block shadow border border-4 border-dark" style="max-height: 400px; border-radius: 10px;" alt="Elden Ring">
+                            
+                            <div class="game-card-bg p-4 mt-4 text-white text-center w-75">
+                                <h3 class="text-warning text-uppercase mb-3" style="font-family: 'Press Start 2P'; font-size: 1.2rem;">Elden Ring</h3>
+                                <p>A definição de Fantasia Sombria. Vencedor do "Game of the Year", este título redefine o gênero RPG de ação. Com um vasto mundo aberto para exploração não linear e combate estratégico desafiador, o jogo oferece uma mitologia rica criada em colaboração com George R. R. Martin.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center">
+                            <img src="../img/bloodborne2.jpg" class="d-block shadow border border-4 border-dark" style="max-height: 400px; border-radius: 10px;" alt="Bloodborne II">
+                            
+                            <div class="game-card-bg p-4 mt-4 text-white text-center w-75">
+                                <h3 class="text-warning text-uppercase mb-3" style="font-family: 'Press Start 2P'; font-size: 1.2rem;">Bloodborne II</h3>
+                                <p>O retorno ao pesadelo gótico. A aguardada sequência que expande o universo de horror cósmico. Com mecânicas de combate mais agressivas e viscerais, o jogo convida os jogadores a desvendar novos mistérios em cenários vitorianos aterrorizantes. O desafio definitivo para os entusiastas do gênero souls.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8">
+                    <h3 class="text-white text-center mb-4 page-title-box fs-5">Informações Adicionais</h3>
+                    
+                    <div class="accordion" id="accordionPortfolio">
+                        <div class="accordion-item border-dark border-2">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fas fa-gamepad me-2 text-warning"></i> Plataformas Suportadas
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionPortfolio">
+                                <div class="accordion-body">
+                                    Nossos projetos são otimizados para rodar na nova geração de consoles (PS5, Xbox Series X/S) e também em PCs de alta performance. Oferecemos suporte completo para integração cross-platform quando aplicável.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-dark border-2">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fas fa-tools me-2 text-warning"></i> Motor Gráfico Utilizado
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionPortfolio">
+                                <div class="accordion-body">
+                                    Utilizamos as tecnologias mais recentes do mercado, incluindo Unreal Engine 5 e engines proprietárias otimizadas para Ray Tracing e carregamento ultrarrápido de texturas.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="mt-auto py-3 text-center">
+        <div class="container">
+            <div class="row align-items-center fw-bold" style="font-family: sans-serif;">
+                <div class="col-md-4 text-md-start mb-2 mb-md-0">
+                    <i class="fab fa-whatsapp"></i> (11) 99999-9999
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                    NEXUS GAMES &copy; 2024
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="#" class="text-dark mx-2 text-decoration-none"><i class="fab fa-instagram fs-4"></i></a>
+                    <a href="#" class="text-dark mx-2 text-decoration-none"><i class="fab fa-twitter fs-4"></i></a> 
+                    <a href="#" class="text-dark mx-2 text-decoration-none"><i class="fab fa-youtube fs-4"></i></a>
+                </div>
+            </div>
+        </div>
+        <div style="height: 15px; margin-top: 10px; background-image: repeating-linear-gradient(45deg, #b85c38 0, #b85c38 10px, transparent 10px, transparent 20px); opacity: 0.3;"></div>
+    </footer>
+
+    <script src="../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
